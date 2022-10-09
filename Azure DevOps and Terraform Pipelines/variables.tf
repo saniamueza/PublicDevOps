@@ -78,8 +78,3 @@ variable "subnets" {
   }
 }
 
-variable "bastionhost_name" {
-  type        = string
-  description = "The name of the basion host"
-  default     = "<bastion host name>"
-}
